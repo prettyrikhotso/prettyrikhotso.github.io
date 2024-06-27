@@ -10,7 +10,7 @@
             line-height: 1.6;
             margin: 0;
             padding: 0;
-            background-color: #fdfdfd;
+            background-color: #fff5f8;
             color: #333;
         }
         .container {
@@ -19,17 +19,20 @@
             overflow: hidden;
         }
         header {
-            background: #ff8fb1;
+            background: #f8bbd0;
             color: #fff;
             padding-top: 30px;
             min-height: 70px;
-            border-bottom: #ff4b68 3px solid;
+            border-bottom: #ec407a 3px solid;
+            border-radius: 0 0 15px 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
         header a, footer a {
             color: #fff;
             text-decoration: none;
             text-transform: uppercase;
             font-size: 16px;
+            font-weight: bold;
         }
         header ul {
             padding: 0;
@@ -38,36 +41,56 @@
         header ul li {
             float: right;
             display: inline;
-            padding: 0 20px 0 20px;
+            padding: 0 20px;
         }
         header #branding {
             float: left;
         }
         header #branding h1 {
             margin: 0;
+            font-size: 2.5em;
+            font-family: 'Georgia', serif;
         }
         .content {
             padding: 20px;
-            background: #fff;
+            background: #ffffff;
             margin-bottom: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
         .content h2 {
-            color: #ff4b68;
+            color: #ec407a;
+            font-family: 'Georgia', serif;
+            border-bottom: 2px solid #f8bbd0;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .content p, .content ul {
+            font-size: 1.1em;
+            margin: 10px 0;
         }
         footer {
-            background: #ff8fb1;
+            background: #f8bbd0;
             color: #fff;
             text-align: center;
             padding: 30px 0;
             margin-top: 20px;
+            border-radius: 15px 15px 0 0;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
         }
         nav ul li a:hover {
-            color: #ff4b68;
+            color: #ec407a;
         }
         a {
-            color: #ff4b68;
+            color: #ec407a;
+        }
+        @media (max-width: 768px) {
+            header ul li {
+                float: none;
+                display: block;
+                text-align: center;
+                padding: 10px 0;
+            }
         }
     </style>
 </head>
@@ -82,7 +105,7 @@
                     <li><a href="#about">About</a></li>
                     <li><a href="#education">Education</a></li>
                     <li><a href="#experience">Experience</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#contact">References</a></li>
                 </ul>
             </nav>
         </div>
@@ -90,7 +113,23 @@
 
     <section id="about" class="container content">
         <h2>About Me</h2>
-        <p>Hello! I am Pretty Rikhotso, a passionate Computer Science student from Tshwane University of Technology. I am eager to learn and grow in the field of technology.</p>
+        <p>Hello! I am Pretty Vutlhari Rikhotso, a passionate Computer Science student from Tshwane University of Technology. I am eager to learn and grow in the field of technology.</p>
+        <p><strong>Personal Details:</strong></p>
+        
+            <li><strong>Full Name:</strong> Pretty Vutlhari Rikhotso</li>
+            <li><strong>ID Number:</strong>0211220470085</li>
+            <li><strong>Date of Birth:</strong> 22 November 2002</li>
+            <li><strong>Gender:</strong> Female</li>
+            <li><strong>Nationality:</strong> South African</li>
+            <li><strong>Race:</strong>Black</li>
+            <li><strong>Disability:</strong>None</li>
+            <li><strong>Marital Status:</strong>Single</li>
+            <li><strong>Languages:</strong> English, Xitsonga,IsiZulu</li>
+            <li><strong>Health:</strong> Excellent</li>
+            <li><strong>Religion:</strong>Christianity</li>
+            <li><strong>Criminal Record:</strong> None</li>
+            <li><strong>Driver's Licence:</strong> None</li>
+    
     </section>
 
     <section id="education" class="container content">
@@ -104,21 +143,22 @@
 
     <section id="experience" class="container content">
         <h2>Work Experience</h2>
-        <p>Used to be a helper in my community, assisting wherever needed and performing various tasks as directed.</p>
+        <p>I used to be a helper in my community, assisting wherever needed and performing various tasks as directed.</p>
     </section>
 
     <section id="contact" class="container content">
         <h2>Contact</h2>
         <p><strong>Email:</strong> prettyrikhotso85@gmail.com<br>
            <strong>Phone:</strong> 083 688 8683</p>
-    </section>
-
-    <footer>
-        <p>Contact Information:</p>
+               <p>References:</p>
         <p><strong>MS Khoza (Mother)</strong><br>
            Phone: 063 558 1424</p>
         <p><strong>RS Rikhotso (High School Principal)</strong><br>
-           Phone: 082 256 6392</p>
+           Phone: 082 256 6392</p>  
+    </section>
+
+    <footer>
+  
     </footer>
 </body>
 </html>
