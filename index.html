@@ -7,72 +7,84 @@
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
   <style>
     body {
-      background-color: #ffe6f0; /* Light pink */
-      font-family: 'Arial', sans-serif;
+      background-color: #fff0f5; /* light pink background */
+      font-family: 'Segoe UI', sans-serif;
     }
     .profile-img {
       width: 150px;
       height: 150px;
       border-radius: 50%;
       margin-top: 20px;
-      border: 5px solid #ff99cc;
+      border: 4px solid #ff69b4;
+    }
+    header {
+      background: linear-gradient(to right, #ff99cc, #ff66b2);
+      color: white;
+      padding: 40px 0;
+      text-align: center;
     }
     .main-content {
-      background: #fff;
-      padding: 30px;
-      margin: 20px 0;
-      border-radius: 10px;
-      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      background: #ffffff;
+      padding: 40px;
+      margin: 30px auto;
+      border-radius: 15px;
+      box-shadow: 0 10px 25px rgba(255, 105, 180, 0.2);
+      max-width: 900px;
     }
     .section {
       margin-bottom: 40px;
     }
     .section h2 {
-      color: #cc0066;
-      border-bottom: 2px solid #cc0066;
+      color: #d63384;
+      border-bottom: 2px solid #d63384;
       padding-bottom: 10px;
       margin-bottom: 20px;
-    }
-    .section p, .section ul {
-      color: #333;
+      font-weight: bold;
     }
     .section ul {
-      list-style-type: square;
+      list-style-type: circle;
       padding-left: 20px;
     }
-    footer {
-      text-align: center;
-      padding: 20px 0;
-      background: #cc0066;
-      color: #fff;
-    }
-    footer a {
-      color: #ffddf4;
-      text-decoration: none;
+    .section ul li {
+      color: #333;
+      padding: 5px 0;
     }
     .navbar {
-      background: #cc0066;
+      background: #ff69b4;
+      text-align: center;
       padding: 10px 0;
     }
     .navbar a {
-      color: #fff;
+      color: white;
       text-decoration: none;
-      padding: 14px 20px;
-      display: inline-block;
+      margin: 0 15px;
+      font-weight: 600;
     }
     .navbar a:hover {
-      background: #99004d;
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      background-color: #ff69b4;
+      color: white;
+      padding: 20px 0;
+      margin-top: 30px;
+    }
+    footer a {
+      color: #fffddf;
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
-  <header class="text-center bg-dark text-white py-4">
+
+  <header>
     <img src="picture.png" alt="Pretty Vutlhari Rikhotso" class="profile-img" />
     <h1>Pretty Vutlhari Rikhotso</h1>
     <p>Computer Science Student | Aspiring Software Developer</p>
   </header>
 
-  <nav class="navbar text-center">
+  <nav class="navbar">
     <a href="#about">About</a>
     <a href="#education">Education</a>
     <a href="#capabilities">Capabilities</a>
@@ -87,29 +99,28 @@
 
     <section class="section" id="education">
       <h2>Education</h2>
-      <h3>Tshwane University of Technology</h3>
-      <p>Diploma in Computer Science (Extended)</p>
-      <p>Final Year Undergraduate | 2022 – Present</p>
+      <h4>Tshwane University of Technology</h4>
+      <p>Diploma in Computer Science<br>
+      Final Year Undergraduate | 2022 – Present</p>
     </section>
 
     <section class="section" id="capabilities">
       <h2>Capabilities</h2>
-      <h4>Technical Skills</h4>
+      <h5>Technical Skills</h5>
       <ul>
-        <li>Programming: Java, HTML, CSS, JavaScript, React</li>
-        <li>Web Development: Basic website creation using HTML, CSS, JavaScript</li>
-        <li>Tools: Git, VS Code, Microsoft Office (Word, Excel, PowerPoint)</li>
-        <li>Databases: Basic database knowledge</li>
-        <li>Problem Solving: Logical approach to technical challenges</li>
+        <li>Java, HTML, CSS, JavaScript, React</li>
+        <li>Basic database knowledge and Git</li>
+        <li>Visual Studio Code, Microsoft Office Suite</li>
+        <li>Web development fundamentals</li>
+        <li>Problem-solving with logical thinking</li>
       </ul>
-      <h4>Soft Skills</h4>
+
+      <h5>Soft Skills</h5>
       <ul>
-        <li>Strong written and verbal communication (English, Xitsonga)</li>
-        <li>Adaptable and quick learner</li>
-        <li>Team-oriented with collaborative mindset</li>
-        <li>Good time management and organizational skills</li>
-        <li>Positive work ethic and eagerness to improve</li>
-        <li>Professional and respectful in all environments</li>
+        <li>Teamwork and collaboration</li>
+        <li>Adaptable and quick to learn new tools</li>
+        <li>Time management and prioritization</li>
+        <li>Strong work ethic and professionalism</li>
       </ul>
     </section>
   </div>
@@ -118,11 +129,8 @@
     <p>Contact Me</p>
     <p>Email: <a href="mailto:prettyrikhotso85@gmail.com">prettyrikhotso85@gmail.com</a></p>
     <p>Cell: 083 688 8683</p>
-    <p>GitHub: <a href="https://github.com/prettyrikhotso/prettyrikhotso.git" target="_blank">prettyrikhotso</a></p>
+    <p>GitHub: <a href="https://github.com/prettyrikhotso/prettyrikhotso.git" target="_blank">github.com/prettyrikhotso</a></p>
   </footer>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
